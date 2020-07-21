@@ -4,7 +4,6 @@
         // call the helper function on component load
         helper.getChildRecors(component, event);
     },
- 
     addSelected: function(component, event, helper) {
         // create array[list] type temp. variable for store child record's id's from selected checkboxes.  
         var tempIDs = [];
